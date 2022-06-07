@@ -1,0 +1,11 @@
+framework module unico_check {
+  umbrella header "unico_check-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module unico_check.Swift {
+    header "unico_check-Swift.h"
+    requires objc
+}

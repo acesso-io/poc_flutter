@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.poc_flutter2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/iwallace/Documents/projetos/poc_flutter_3.0.0/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/iwallace/Documents/projetos/poc_flutter_3.0.0/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:10:5-65
+16-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:10:22-62
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+18-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:13:5-76
+19-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:13:22-73
+20
+21    <uses-feature
+21-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:15:5-17:36
+22        android:name="android.hardware.camera"
+22-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:16:9-47
+23        android:required="false" />
+23-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:17:9-33
+24    <uses-feature
+24-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:18:5-20:36
+25        android:name="android.hardware.camera.front"
+25-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:19:9-53
+26        android:required="false" />
+26-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:20:9-33
+27    <uses-feature
+27-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:21:5-23:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:22:9-57
+29        android:required="false" />
+29-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:23:9-33
+30
+31    <application
+32        android:name="android.app.Application"
+33        android:allowClearUserData="true"
+33-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:14:9-42
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.6.0] /Users/iwallace/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:hardwareAccelerated="true"
+36-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:15:9-43
+37        android:icon="@mipmap/ic_launcher"
+38        android:label="poc_flutter2"
+39        android:largeHeap="true" >
+39-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:27:9-33
+40        <activity
+41            android:name="com.example.poc_flutter2.MainActivity"
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43            android:exported="true"
+44            android:hardwareAccelerated="true"
+45            android:launchMode="singleTop"
+46            android:theme="@style/LaunchTheme"
+47            android:windowSoftInputMode="adjustResize" >
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+56                android:name="io.flutter.embedding.android.NormalTheme"
+57                android:resource="@style/NormalTheme" />
+58
+59            <intent-filter>
+60                <action android:name="android.intent.action.MAIN" />
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+70            android:name="flutterEmbedding"
+71            android:value="2" />
+72
+73        <activity
+73-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:59
+74            android:name="com.unico_check.SelfieCameraActivity"
+74-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-64
+75            android:noHistory="true"
+75-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-56
+77        <activity
+77-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:59
+78            android:name="com.unico_check.DocumentCameraActivity"
+78-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-66
+79            android:noHistory="true"
+79-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+80            android:theme="@style/AppTheme.NoActionBar" />
+80-->[:unico_check] /Users/iwallace/Documents/projetos/poc_flutter_3.0.0/build/unico_check/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-56
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0-beta04] /Users/iwallace/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+88
+89        <meta-data
+89-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:16:9-18:36
+90            android:name="com.google.mlkit.vision.DEPENDENCIES"
+90-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:17:13-64
+91            android:value="face" />
+91-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:18:13-33
+92        <meta-data
+92-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:19:9-21:105
+93            android:name="io.sentry.dsn"
+93-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:20:13-41
+94            android:value="https://5e96fb270abe4ce88e667a04113c88ce@o939397.ingest.sentry.io/5896304" />
+94-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:21:13-102
+95        <meta-data
+95-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:22:9-24:37
+96            android:name="io.sentry.auto-init"
+96-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:23:13-47
+97            android:value="false" />
+97-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:24:13-34
+98
+99        <activity
+99-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:26:9-30:59
+100            android:name="com.acesso.acessobio_android.activities.SelfieXActivity"
+100-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:27:13-83
+101            android:noHistory="true"
+101-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:28:13-37
+102            android:screenOrientation="portrait"
+102-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:29:13-49
+103            android:theme="@style/AppTheme.NoActionBar" />
+103-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:30:13-56
+104        <activity
+104-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:31:9-35:59
+105            android:name="com.acesso.acessobio_android.document.DocumentXActivity"
+105-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:32:13-83
+106            android:noHistory="true"
+106-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:33:13-37
+107            android:screenOrientation="portrait"
+107-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:34:13-49
+108            android:theme="@style/AppTheme.NoActionBar" />
+108-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:35:13-56
+109        <activity
+109-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:36:9-40:59
+110            android:name="com.acesso.acessobio_android.facetec.FaceTecActivity"
+110-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:37:13-80
+111            android:noHistory="true"
+111-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:38:13-37
+112            android:screenOrientation="portrait"
+112-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:39:13-49
+113            android:theme="@style/AppTheme.NoActionBar" />
+113-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:40:13-56
+114        <activity
+114-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:41:9-46:45
+115            android:name="com.facetec.sdk.FaceTecSessionActivity"
+115-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:42:13-66
+116            android:configChanges="orientation|keyboardHidden|screenSize"
+116-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:30:13-74
+117            android:excludeFromRecents="true"
+117-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:31:13-46
+118            android:noHistory="true"
+118-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:43:13-37
+119            android:resizeableActivity="false"
+119-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:32:13-47
+120            android:screenOrientation="portrait"
+120-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:44:13-49
+121            android:supportsRtl="true"
+121-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:33:13-39
+122            android:theme="@style/AppTheme.NoActionBar"
+122-->[com.github.acesso-io.acessobio-android:selfie:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/13bb1afb545819c6a56ad4dceab13aa6/transformed/jetified-selfie-4.0.15/AndroidManifest.xml:45:13-56
+123            android:windowSoftInputMode="adjustPan" /> <!-- 'android:authorities' must be unique in the device, across all apps -->
+123-->[com.github.acesso-io.acessobio-android:liveness:4.0.15] /Users/iwallace/.gradle/caches/transforms-3/50a67d67a9c3ca92cd9ab538f2e75379/transformed/jetified-liveness-4.0.15/AndroidManifest.xml:35:13-52
+124        <provider
+124-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:14:9-17:40
+125            android:name="io.sentry.android.core.SentryInitProvider"
+125-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:15:13-69
+126            android:authorities="com.example.poc_flutter2.SentryInitProvider"
+126-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:16:13-70
+127            android:exported="false" />
+127-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:17:13-37
+128        <provider
+128-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:18:9-22:39
+129            android:name="io.sentry.android.core.SentryPerformanceProvider"
+129-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:19:13-76
+130            android:authorities="com.example.poc_flutter2.SentryPerformanceProvider"
+130-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:20:13-77
+131            android:exported="false"
+131-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:21:13-37
+132            android:initOrder="200" />
+132-->[io.sentry:sentry-android-core:5.2.0] /Users/iwallace/.gradle/caches/transforms-3/debf56d5a52c28dcf2a119c789487f4c/transformed/jetified-sentry-android-core-5.2.0/AndroidManifest.xml:22:13-36
+133
+134        <service
+134-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+135            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+135-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+136            android:directBootAware="true"
+136-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+137            android:exported="false" >
+137-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+138            <meta-data
+138-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+139                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+139-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/iwallace/.gradle/caches/transforms-3/5d5bfccfd2b90c7ae2115737225ad197/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+141            <meta-data
+141-->[com.google.mlkit:vision-common:17.1.0] /Users/iwallace/.gradle/caches/transforms-3/259e3508a5b9bbde9cb92c6b4d0051a1/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+142                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+142-->[com.google.mlkit:vision-common:17.1.0] /Users/iwallace/.gradle/caches/transforms-3/259e3508a5b9bbde9cb92c6b4d0051a1/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.mlkit:vision-common:17.1.0] /Users/iwallace/.gradle/caches/transforms-3/259e3508a5b9bbde9cb92c6b4d0051a1/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+144            <meta-data
+144-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+145                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+145-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+147        </service>
+148
+149        <provider
+149-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+150            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+150-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+151            android:authorities="com.example.poc_flutter2.mlkitinitprovider"
+151-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+152            android:exported="false"
+152-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+153            android:initOrder="99" />
+153-->[com.google.mlkit:common:18.1.0] /Users/iwallace/.gradle/caches/transforms-3/7d203eaf4c625133e0b5889cf753a693/transformed/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+154
+155        <activity
+155-->[com.google.android.gms:play-services-base:18.0.1] /Users/iwallace/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+156-->[com.google.android.gms:play-services-base:18.0.1] /Users/iwallace/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-base:18.0.1] /Users/iwallace/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-base:18.0.1] /Users/iwallace/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:18.0.0] /Users/iwallace/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:18.0.0] /Users/iwallace/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:18.0.0] /Users/iwallace/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+163
+164        <provider
+164-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/iwallace/.gradle/caches/transforms-3/3fc716d9e813218eb1841fbd4ab368e3/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+165            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+165-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/iwallace/.gradle/caches/transforms-3/3fc716d9e813218eb1841fbd4ab368e3/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+166            android:authorities="com.example.poc_flutter2.lifecycle-process"
+166-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/iwallace/.gradle/caches/transforms-3/3fc716d9e813218eb1841fbd4ab368e3/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+167            android:exported="false"
+167-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/iwallace/.gradle/caches/transforms-3/3fc716d9e813218eb1841fbd4ab368e3/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+168            android:multiprocess="true" />
+168-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/iwallace/.gradle/caches/transforms-3/3fc716d9e813218eb1841fbd4ab368e3/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+169
+170        <service
+170-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+171            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+171-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+172            android:exported="false" >
+172-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+173            <meta-data
+173-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+174                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+174-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+175                android:value="cct" />
+175-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/iwallace/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+176        </service>
+177        <service
+177-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+178            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+178-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+179            android:exported="false"
+179-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" >
+180-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+181        </service>
+182
+183        <receiver
+183-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+184            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+184-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+185            android:exported="false" />
+185-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/iwallace/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+186    </application>
+187
+188</manifest>
